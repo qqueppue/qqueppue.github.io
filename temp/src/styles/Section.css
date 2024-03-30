@@ -1,0 +1,73 @@
+/* AboutMe Section */
+.aboutMe {
+    text-align: center;
+}
+
+
+/* Skils Setion */
+
+.skils {
+    /* height: 110vh; */
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    text-align: center;
+}
+
+.sfont {
+    background-color: wheat;
+    font-size: 30px;
+}
+
+/* .skils img.sImg {
+    width: 100;
+    height: 100;
+    padding-right: 10;
+    padding-left: 10;
+} */
+
+
+/* Project Section */
+.projects {
+    /* height: 110vh; */
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    text-align: center;
+}
+
+.projects div.project {
+    background-color: 'red';
+    height: 200;
+    margin-bottom: 7vw;
+}
+
+.projects div.project img.projectImg {
+    width: 50vw;
+    height: 25w;
+}
+
+
+/* Contact Section */
+
+.contact { 
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact div.cfont{
+    font-size: 4vh;
+    font-weight: bold;
+    align-items: center;
+    color: teal;
+    
+}
+
+/* Font Section */
+
+.title {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+

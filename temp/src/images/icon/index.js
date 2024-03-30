@@ -1,0 +1,11 @@
+export { default as CSS } from './css.png';
+export { default as Html5 } from './html-5.png';
+export { default as Java } from './java.png';
+export { default as Javascript } from './javascript.png';
+export { default as Mysql } from './mysql.png';
+export { default as Nodejs } from './nodejs.png';
+export { default as Python } from './python.png';
+export { default as RaspberryPi } from './raspberry-pi.png';
+export { default as Rreact } from './react.png';
+export { default as SpringBoot } from './springboot.png';
+export { default as Github } from './github.png';
