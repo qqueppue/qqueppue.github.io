@@ -1,13 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'
+
 import './styles/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './components/App';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import ScrollToTop from './components/ScrollTop';
 
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<BrowserRouter><App /></BrowserRouter>);
+root.render(<BrowserRouter><ScrollToTop /><App /></BrowserRouter>);

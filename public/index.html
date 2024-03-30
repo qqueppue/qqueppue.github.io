@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/CompanyLogo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="HT"
+      content="HT WebPage"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+    <!-- google 폰트 -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet"> -->
 
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
-    <title>React App</title>
+    <!-- 카카오맵 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%REACT_APP_KAKAO_MAP_APP_KEY%&libraries=services"></script>
+
+    <title>(주)에이치티</title>
   </head>
+  
   <body>
     <div id="root"></div>
   </body>
-  <script>
-    $('.navTrigger').click(function () {
-      $(this).toggleClass('active');
-      // console.log("Clicked menu");
-      $("#mainListDiv").toggleClass("show_list");
-      $("#mainListDiv").fadeIn();
-    });
-  </script>
 </html>
