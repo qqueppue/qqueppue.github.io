@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6be93e6b.css",
-    "main.js": "/static/js/main.4ba9280c.js",
+    "main.js": "/static/js/main.54bc305e.js",
     "static/media/ProductMain.jpg": "/static/media/ProductMain.22062b78a80a42ab1d65.jpg",
     "static/media/NanumGothic.ttf": "/static/media/NanumGothic.46c03af3832f3527bd51.ttf",
     "static/media/NanumGothicBold.ttf": "/static/media/NanumGothicBold.356b763ec0165e2d3c7d.ttf",
@@ -36,10 +36,10 @@
     "static/media/phone.svg": "/static/media/phone.e2f93eccc7fe9df769892187be0fb1fc.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.0db42c81a64e186b831b353c017dd952.svg",
     "main.6be93e6b.css.map": "/static/css/main.6be93e6b.css.map",
-    "main.4ba9280c.js.map": "/static/js/main.4ba9280c.js.map"
+    "main.54bc305e.js.map": "/static/js/main.54bc305e.js.map"
   },
   "entrypoints": [
     "static/css/main.6be93e6b.css",
-    "static/js/main.4ba9280c.js"
+    "static/js/main.54bc305e.js"
   ]
 }
